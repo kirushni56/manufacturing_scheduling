@@ -1,0 +1,9 @@
+machine_id,machine_type,speed_factor,capacity,available_from,available_until,status
+M1,CNC,1.12,1,08:00,20:00,Available
+M2,CNC,1.0,1,08:00,20:00,Available
+M3,Lathe,1.15,1,08:00,20:00,Available
+M4,Lathe,1.09,1,08:00,20:00,Available
+M5,Drill,0.88,1,08:00,20:00,Available
+M6,Drill,1.19,1,08:00,20:00,Available
+M7,Assembly,1.12,1,08:00,20:00,Available
+M8,Assembly,1.13,1,08:00,20:00,Available
