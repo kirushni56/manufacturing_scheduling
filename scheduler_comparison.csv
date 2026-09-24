@@ -1,0 +1,4 @@
+,makespan,total_tardiness,jobs_late,utilization,idle_time,setup_total,risk_exposure,fitness
+FCFS,83.93,82.07,7.0,0.6495,235.31,0.0,175.86,3517.43
+Priority,95.75,188.93,14.0,0.5674,331.37,0.0,175.19,3096.61
+GA,92.61,3.54,2.0,0.5841,308.12,0.0,163.0,1158.54
