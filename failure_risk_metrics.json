@@ -1,0 +1,35 @@
+{
+  "task": "failure_risk_classification",
+  "train_rows": 1700,
+  "test_rows": 300,
+  "positive_rate_train": 0.1982,
+  "results": {
+    "RandomForest": {
+      "accuracy": 0.72,
+      "precision": 0.3478,
+      "recall": 0.381,
+      "f1": 0.3636,
+      "roc_auc": 0.6853,
+      "confusion_matrix": {
+        "tn": 192,
+        "fp": 45,
+        "fn": 39,
+        "tp": 24
+      }
+    },
+    "XGBoost": {
+      "accuracy": 0.68,
+      "precision": 0.3299,
+      "recall": 0.5079,
+      "f1": 0.4,
+      "roc_auc": 0.659,
+      "confusion_matrix": {
+        "tn": 172,
+        "fp": 65,
+        "fn": 31,
+        "tp": 32
+      }
+    }
+  },
+  "selected_model": "XGBoost"
+}

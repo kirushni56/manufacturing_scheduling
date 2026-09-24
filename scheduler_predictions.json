@@ -1,0 +1,2558 @@
+{
+  "J1": [
+    {
+      "operation_id": "J1-O1",
+      "machine_id": "M1",
+      "predicted_time": 0.878,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J1-O1",
+      "machine_id": "M2",
+      "predicted_time": 0.966,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J1-O2",
+      "machine_id": "M3",
+      "predicted_time": 0.683,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J1-O2",
+      "machine_id": "M4",
+      "predicted_time": 0.714,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J1-O3",
+      "machine_id": "M7",
+      "predicted_time": 0.962,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J1-O3",
+      "machine_id": "M8",
+      "predicted_time": 0.941,
+      "machine_risk": 0.084
+    }
+  ],
+  "J10": [
+    {
+      "operation_id": "J10-O1",
+      "machine_id": "M1",
+      "predicted_time": 5.28,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J10-O1",
+      "machine_id": "M2",
+      "predicted_time": 5.082,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J10-O2",
+      "machine_id": "M3",
+      "predicted_time": 4.157,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J10-O2",
+      "machine_id": "M4",
+      "predicted_time": 4.464,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J10-O3",
+      "machine_id": "M5",
+      "predicted_time": 3.261,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J10-O3",
+      "machine_id": "M6",
+      "predicted_time": 2.748,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J10-O4",
+      "machine_id": "M7",
+      "predicted_time": 4.842,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J10-O4",
+      "machine_id": "M8",
+      "predicted_time": 4.92,
+      "machine_risk": 0.084
+    }
+  ],
+  "J11": [
+    {
+      "operation_id": "J11-O1",
+      "machine_id": "M1",
+      "predicted_time": 3.515,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J11-O1",
+      "machine_id": "M2",
+      "predicted_time": 3.996,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J11-O2",
+      "machine_id": "M3",
+      "predicted_time": 2.63,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J11-O2",
+      "machine_id": "M4",
+      "predicted_time": 2.909,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J11-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.455,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J11-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.811,
+      "machine_risk": 0.077
+    }
+  ],
+  "J12": [
+    {
+      "operation_id": "J12-O1",
+      "machine_id": "M1",
+      "predicted_time": 4.896,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J12-O1",
+      "machine_id": "M2",
+      "predicted_time": 5.05,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J12-O2",
+      "machine_id": "M3",
+      "predicted_time": 3.948,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J12-O2",
+      "machine_id": "M4",
+      "predicted_time": 4.317,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J12-O3",
+      "machine_id": "M5",
+      "predicted_time": 3.27,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J12-O3",
+      "machine_id": "M6",
+      "predicted_time": 2.769,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J12-O4",
+      "machine_id": "M7",
+      "predicted_time": 4.864,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J12-O4",
+      "machine_id": "M8",
+      "predicted_time": 4.958,
+      "machine_risk": 0.084
+    }
+  ],
+  "J13": [
+    {
+      "operation_id": "J13-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.727,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J13-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.948,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J13-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.366,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J13-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.47,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J13-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.981,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J13-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.919,
+      "machine_risk": 0.084
+    }
+  ],
+  "J14": [
+    {
+      "operation_id": "J14-O1",
+      "machine_id": "M1",
+      "predicted_time": 2.252,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J14-O1",
+      "machine_id": "M2",
+      "predicted_time": 2.521,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J14-O2",
+      "machine_id": "M5",
+      "predicted_time": 1.496,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J14-O2",
+      "machine_id": "M6",
+      "predicted_time": 1.044,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J14-O3",
+      "machine_id": "M7",
+      "predicted_time": 2.644,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J14-O3",
+      "machine_id": "M8",
+      "predicted_time": 2.626,
+      "machine_risk": 0.084
+    }
+  ],
+  "J15": [
+    {
+      "operation_id": "J15-O1",
+      "machine_id": "M1",
+      "predicted_time": 2.085,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J15-O1",
+      "machine_id": "M2",
+      "predicted_time": 2.381,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J15-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.709,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J15-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.877,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J15-O3",
+      "machine_id": "M7",
+      "predicted_time": 2.683,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J15-O3",
+      "machine_id": "M8",
+      "predicted_time": 2.661,
+      "machine_risk": 0.084
+    }
+  ],
+  "J16": [
+    {
+      "operation_id": "J16-O1",
+      "machine_id": "M1",
+      "predicted_time": 0.549,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J16-O1",
+      "machine_id": "M2",
+      "predicted_time": 0.634,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J16-O2",
+      "machine_id": "M3",
+      "predicted_time": 0.484,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J16-O2",
+      "machine_id": "M4",
+      "predicted_time": 0.517,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J16-O3",
+      "machine_id": "M7",
+      "predicted_time": 0.607,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J16-O3",
+      "machine_id": "M8",
+      "predicted_time": 0.585,
+      "machine_risk": 0.084
+    }
+  ],
+  "J17": [
+    {
+      "operation_id": "J17-O1",
+      "machine_id": "M1",
+      "predicted_time": 2.036,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J17-O1",
+      "machine_id": "M2",
+      "predicted_time": 2.31,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J17-O2",
+      "machine_id": "M5",
+      "predicted_time": 1.497,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J17-O2",
+      "machine_id": "M6",
+      "predicted_time": 1.021,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J17-O3",
+      "machine_id": "M7",
+      "predicted_time": 2.609,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J17-O3",
+      "machine_id": "M8",
+      "predicted_time": 2.58,
+      "machine_risk": 0.084
+    }
+  ],
+  "J18": [
+    {
+      "operation_id": "J18-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.036,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J18-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.141,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J18-O2",
+      "machine_id": "M5",
+      "predicted_time": 0.797,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J18-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.501,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J18-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.178,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J18-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.168,
+      "machine_risk": 0.084
+    }
+  ],
+  "J19": [
+    {
+      "operation_id": "J19-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.735,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J19-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.948,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J19-O2",
+      "machine_id": "M5",
+      "predicted_time": 1.291,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J19-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.828,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J19-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.991,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J19-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.973,
+      "machine_risk": 0.084
+    }
+  ],
+  "J2": [
+    {
+      "operation_id": "J2-O1",
+      "machine_id": "M1",
+      "predicted_time": 4.456,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J2-O1",
+      "machine_id": "M2",
+      "predicted_time": 4.657,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J2-O2",
+      "machine_id": "M3",
+      "predicted_time": 3.46,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J2-O2",
+      "machine_id": "M4",
+      "predicted_time": 3.55,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J2-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.67,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J2-O3",
+      "machine_id": "M6",
+      "predicted_time": 2.205,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J2-O4",
+      "machine_id": "M7",
+      "predicted_time": 4.528,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J2-O4",
+      "machine_id": "M8",
+      "predicted_time": 4.646,
+      "machine_risk": 0.084
+    }
+  ],
+  "J20": [
+    {
+      "operation_id": "J20-O1",
+      "machine_id": "M1",
+      "predicted_time": 0.542,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J20-O1",
+      "machine_id": "M2",
+      "predicted_time": 0.627,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J20-O2",
+      "machine_id": "M5",
+      "predicted_time": 0.51,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J20-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.372,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J20-O3",
+      "machine_id": "M7",
+      "predicted_time": 0.609,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J20-O3",
+      "machine_id": "M8",
+      "predicted_time": 0.586,
+      "machine_risk": 0.084
+    }
+  ],
+  "J21": [
+    {
+      "operation_id": "J21-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.752,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J21-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.94,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J21-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.37,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J21-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.444,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J21-O3",
+      "machine_id": "M5",
+      "predicted_time": 1.309,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J21-O3",
+      "machine_id": "M6",
+      "predicted_time": 0.992,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J21-O4",
+      "machine_id": "M7",
+      "predicted_time": 1.928,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J21-O4",
+      "machine_id": "M8",
+      "predicted_time": 1.908,
+      "machine_risk": 0.084
+    }
+  ],
+  "J22": [
+    {
+      "operation_id": "J22-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.696,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J22-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.917,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J22-O2",
+      "machine_id": "M5",
+      "predicted_time": 1.232,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J22-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.871,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J22-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.971,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J22-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.923,
+      "machine_risk": 0.084
+    }
+  ],
+  "J23": [
+    {
+      "operation_id": "J23-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.42,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J23-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.618,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J23-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.209,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J23-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.256,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J23-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.729,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J23-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.664,
+      "machine_risk": 0.084
+    }
+  ],
+  "J24": [
+    {
+      "operation_id": "J24-O1",
+      "machine_id": "M1",
+      "predicted_time": 3.031,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J24-O1",
+      "machine_id": "M2",
+      "predicted_time": 3.466,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J24-O2",
+      "machine_id": "M5",
+      "predicted_time": 1.976,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J24-O2",
+      "machine_id": "M6",
+      "predicted_time": 1.449,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J24-O3",
+      "machine_id": "M7",
+      "predicted_time": 3.366,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J24-O3",
+      "machine_id": "M8",
+      "predicted_time": 3.26,
+      "machine_risk": 0.084
+    }
+  ],
+  "J25": [
+    {
+      "operation_id": "J25-O1",
+      "machine_id": "M1",
+      "predicted_time": 3.83,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J25-O1",
+      "machine_id": "M2",
+      "predicted_time": 4.329,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J25-O2",
+      "machine_id": "M3",
+      "predicted_time": 3.02,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J25-O2",
+      "machine_id": "M4",
+      "predicted_time": 3.269,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J25-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.599,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J25-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.926,
+      "machine_risk": 0.077
+    }
+  ],
+  "J26": [
+    {
+      "operation_id": "J26-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.161,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J26-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.291,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J26-O2",
+      "machine_id": "M3",
+      "predicted_time": 0.937,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J26-O2",
+      "machine_id": "M4",
+      "predicted_time": 0.97,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J26-O3",
+      "machine_id": "M5",
+      "predicted_time": 0.873,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J26-O3",
+      "machine_id": "M6",
+      "predicted_time": 0.637,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J26-O4",
+      "machine_id": "M7",
+      "predicted_time": 1.242,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J26-O4",
+      "machine_id": "M8",
+      "predicted_time": 1.258,
+      "machine_risk": 0.084
+    }
+  ],
+  "J27": [
+    {
+      "operation_id": "J27-O1",
+      "machine_id": "M1",
+      "predicted_time": 2.491,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J27-O1",
+      "machine_id": "M2",
+      "predicted_time": 2.734,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J27-O2",
+      "machine_id": "M3",
+      "predicted_time": 2.017,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J27-O2",
+      "machine_id": "M4",
+      "predicted_time": 2.139,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J27-O3",
+      "machine_id": "M5",
+      "predicted_time": 1.699,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J27-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.308,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J27-O4",
+      "machine_id": "M7",
+      "predicted_time": 3.079,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J27-O4",
+      "machine_id": "M8",
+      "predicted_time": 3.111,
+      "machine_risk": 0.084
+    }
+  ],
+  "J28": [
+    {
+      "operation_id": "J28-O1",
+      "machine_id": "M1",
+      "predicted_time": 3.958,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J28-O1",
+      "machine_id": "M2",
+      "predicted_time": 4.54,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J28-O2",
+      "machine_id": "M3",
+      "predicted_time": 3.059,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J28-O2",
+      "machine_id": "M4",
+      "predicted_time": 3.351,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J28-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.663,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J28-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.957,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J28-O4",
+      "machine_id": "M7",
+      "predicted_time": 4.692,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J28-O4",
+      "machine_id": "M8",
+      "predicted_time": 4.657,
+      "machine_risk": 0.084
+    }
+  ],
+  "J29": [
+    {
+      "operation_id": "J29-O1",
+      "machine_id": "M1",
+      "predicted_time": 3.178,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J29-O1",
+      "machine_id": "M2",
+      "predicted_time": 3.485,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J29-O2",
+      "machine_id": "M3",
+      "predicted_time": 2.399,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J29-O2",
+      "machine_id": "M4",
+      "predicted_time": 2.621,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J29-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.094,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J29-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.649,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J29-O4",
+      "machine_id": "M7",
+      "predicted_time": 3.517,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J29-O4",
+      "machine_id": "M8",
+      "predicted_time": 3.444,
+      "machine_risk": 0.084
+    }
+  ],
+  "J3": [
+    {
+      "operation_id": "J3-O1",
+      "machine_id": "M1",
+      "predicted_time": 3.074,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J3-O1",
+      "machine_id": "M2",
+      "predicted_time": 3.431,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J3-O2",
+      "machine_id": "M3",
+      "predicted_time": 2.359,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J3-O2",
+      "machine_id": "M4",
+      "predicted_time": 2.581,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J3-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.0,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J3-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.558,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J3-O4",
+      "machine_id": "M7",
+      "predicted_time": 3.503,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J3-O4",
+      "machine_id": "M8",
+      "predicted_time": 3.515,
+      "machine_risk": 0.084
+    }
+  ],
+  "J30": [
+    {
+      "operation_id": "J30-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.198,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J30-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.351,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J30-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.002,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J30-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.025,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J30-O3",
+      "machine_id": "M5",
+      "predicted_time": 0.963,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J30-O3",
+      "machine_id": "M6",
+      "predicted_time": 0.723,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J30-O4",
+      "machine_id": "M7",
+      "predicted_time": 1.293,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J30-O4",
+      "machine_id": "M8",
+      "predicted_time": 1.279,
+      "machine_risk": 0.084
+    }
+  ],
+  "J31": [
+    {
+      "operation_id": "J31-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.416,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J31-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.6,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J31-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.199,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J31-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.216,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J31-O3",
+      "machine_id": "M5",
+      "predicted_time": 1.153,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J31-O3",
+      "machine_id": "M6",
+      "predicted_time": 0.888,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J31-O4",
+      "machine_id": "M7",
+      "predicted_time": 1.695,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J31-O4",
+      "machine_id": "M8",
+      "predicted_time": 1.67,
+      "machine_risk": 0.084
+    }
+  ],
+  "J32": [
+    {
+      "operation_id": "J32-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.604,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J32-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.844,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J32-O2",
+      "machine_id": "M5",
+      "predicted_time": 1.283,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J32-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.842,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J32-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.763,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J32-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.748,
+      "machine_risk": 0.084
+    }
+  ],
+  "J33": [
+    {
+      "operation_id": "J33-O1",
+      "machine_id": "M1",
+      "predicted_time": 4.491,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J33-O1",
+      "machine_id": "M2",
+      "predicted_time": 5.069,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J33-O2",
+      "machine_id": "M3",
+      "predicted_time": 3.81,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J33-O2",
+      "machine_id": "M4",
+      "predicted_time": 4.026,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J33-O3",
+      "machine_id": "M5",
+      "predicted_time": 3.275,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J33-O3",
+      "machine_id": "M6",
+      "predicted_time": 2.426,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J33-O4",
+      "machine_id": "M7",
+      "predicted_time": 5.348,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J33-O4",
+      "machine_id": "M8",
+      "predicted_time": 5.205,
+      "machine_risk": 0.084
+    }
+  ],
+  "J34": [
+    {
+      "operation_id": "J34-O1",
+      "machine_id": "M1",
+      "predicted_time": 2.656,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J34-O1",
+      "machine_id": "M2",
+      "predicted_time": 3.093,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J34-O2",
+      "machine_id": "M3",
+      "predicted_time": 2.122,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J34-O2",
+      "machine_id": "M4",
+      "predicted_time": 2.29,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J34-O3",
+      "machine_id": "M5",
+      "predicted_time": 1.804,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J34-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.397,
+      "machine_risk": 0.077
+    }
+  ],
+  "J35": [
+    {
+      "operation_id": "J35-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.743,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J35-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.95,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J35-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.373,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J35-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.472,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J35-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.981,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J35-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.926,
+      "machine_risk": 0.084
+    }
+  ],
+  "J36": [
+    {
+      "operation_id": "J36-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.305,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J36-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.498,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J36-O2",
+      "machine_id": "M5",
+      "predicted_time": 0.943,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J36-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.6,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J36-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.475,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J36-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.444,
+      "machine_risk": 0.084
+    }
+  ],
+  "J37": [
+    {
+      "operation_id": "J37-O1",
+      "machine_id": "M1",
+      "predicted_time": 0.878,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J37-O1",
+      "machine_id": "M2",
+      "predicted_time": 0.966,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J37-O2",
+      "machine_id": "M3",
+      "predicted_time": 0.742,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J37-O2",
+      "machine_id": "M4",
+      "predicted_time": 0.771,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J37-O3",
+      "machine_id": "M7",
+      "predicted_time": 0.962,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J37-O3",
+      "machine_id": "M8",
+      "predicted_time": 0.941,
+      "machine_risk": 0.084
+    }
+  ],
+  "J38": [
+    {
+      "operation_id": "J38-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.877,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J38-O1",
+      "machine_id": "M2",
+      "predicted_time": 2.24,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J38-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.461,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J38-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.562,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J38-O3",
+      "machine_id": "M5",
+      "predicted_time": 1.304,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J38-O3",
+      "machine_id": "M6",
+      "predicted_time": 0.946,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J38-O4",
+      "machine_id": "M7",
+      "predicted_time": 2.148,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J38-O4",
+      "machine_id": "M8",
+      "predicted_time": 2.161,
+      "machine_risk": 0.084
+    }
+  ],
+  "J39": [
+    {
+      "operation_id": "J39-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.155,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J39-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.286,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J39-O2",
+      "machine_id": "M3",
+      "predicted_time": 0.993,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J39-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.023,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J39-O3",
+      "machine_id": "M5",
+      "predicted_time": 0.903,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J39-O3",
+      "machine_id": "M6",
+      "predicted_time": 0.666,
+      "machine_risk": 0.077
+    }
+  ],
+  "J4": [
+    {
+      "operation_id": "J4-O1",
+      "machine_id": "M1",
+      "predicted_time": 3.958,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J4-O1",
+      "machine_id": "M2",
+      "predicted_time": 4.54,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J4-O2",
+      "machine_id": "M3",
+      "predicted_time": 3.059,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J4-O2",
+      "machine_id": "M4",
+      "predicted_time": 3.351,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J4-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.537,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J4-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.891,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J4-O4",
+      "machine_id": "M7",
+      "predicted_time": 4.692,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J4-O4",
+      "machine_id": "M8",
+      "predicted_time": 4.657,
+      "machine_risk": 0.084
+    }
+  ],
+  "J40": [
+    {
+      "operation_id": "J40-O1",
+      "machine_id": "M1",
+      "predicted_time": 3.074,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J40-O1",
+      "machine_id": "M2",
+      "predicted_time": 3.431,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J40-O2",
+      "machine_id": "M3",
+      "predicted_time": 2.359,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J40-O2",
+      "machine_id": "M4",
+      "predicted_time": 2.581,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J40-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.0,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J40-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.558,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J40-O4",
+      "machine_id": "M7",
+      "predicted_time": 3.503,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J40-O4",
+      "machine_id": "M8",
+      "predicted_time": 3.515,
+      "machine_risk": 0.084
+    }
+  ],
+  "J41": [
+    {
+      "operation_id": "J41-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.05,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J41-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.158,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J41-O2",
+      "machine_id": "M5",
+      "predicted_time": 0.826,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J41-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.52,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J41-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.203,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J41-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.188,
+      "machine_risk": 0.084
+    }
+  ],
+  "J42": [
+    {
+      "operation_id": "J42-O1",
+      "machine_id": "M1",
+      "predicted_time": 0.969,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J42-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.062,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J42-O2",
+      "machine_id": "M5",
+      "predicted_time": 0.751,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J42-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.481,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J42-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.054,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J42-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.044,
+      "machine_risk": 0.084
+    }
+  ],
+  "J43": [
+    {
+      "operation_id": "J43-O1",
+      "machine_id": "M1",
+      "predicted_time": 2.497,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J43-O1",
+      "machine_id": "M2",
+      "predicted_time": 2.905,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J43-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.948,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J43-O2",
+      "machine_id": "M4",
+      "predicted_time": 2.106,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J43-O3",
+      "machine_id": "M5",
+      "predicted_time": 1.686,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J43-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.26,
+      "machine_risk": 0.077
+    }
+  ],
+  "J44": [
+    {
+      "operation_id": "J44-O1",
+      "machine_id": "M1",
+      "predicted_time": 2.046,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J44-O1",
+      "machine_id": "M2",
+      "predicted_time": 2.36,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J44-O2",
+      "machine_id": "M5",
+      "predicted_time": 1.443,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J44-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.962,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J44-O3",
+      "machine_id": "M7",
+      "predicted_time": 2.663,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J44-O3",
+      "machine_id": "M8",
+      "predicted_time": 2.621,
+      "machine_risk": 0.084
+    }
+  ],
+  "J45": [
+    {
+      "operation_id": "J45-O1",
+      "machine_id": "M1",
+      "predicted_time": 3.845,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J45-O1",
+      "machine_id": "M2",
+      "predicted_time": 4.392,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J45-O2",
+      "machine_id": "M3",
+      "predicted_time": 2.99,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J45-O2",
+      "machine_id": "M4",
+      "predicted_time": 3.279,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J45-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.619,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J45-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.94,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J45-O4",
+      "machine_id": "M7",
+      "predicted_time": 4.677,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J45-O4",
+      "machine_id": "M8",
+      "predicted_time": 4.663,
+      "machine_risk": 0.084
+    }
+  ],
+  "J46": [
+    {
+      "operation_id": "J46-O1",
+      "machine_id": "M1",
+      "predicted_time": 4.967,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J46-O1",
+      "machine_id": "M2",
+      "predicted_time": 5.228,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J46-O2",
+      "machine_id": "M3",
+      "predicted_time": 3.641,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J46-O2",
+      "machine_id": "M4",
+      "predicted_time": 3.937,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J46-O3",
+      "machine_id": "M5",
+      "predicted_time": 3.005,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J46-O3",
+      "machine_id": "M6",
+      "predicted_time": 2.491,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J46-O4",
+      "machine_id": "M7",
+      "predicted_time": 4.797,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J46-O4",
+      "machine_id": "M8",
+      "predicted_time": 4.83,
+      "machine_risk": 0.084
+    }
+  ],
+  "J47": [
+    {
+      "operation_id": "J47-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.191,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J47-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.331,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J47-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.005,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J47-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.035,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J47-O3",
+      "machine_id": "M5",
+      "predicted_time": 0.945,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J47-O3",
+      "machine_id": "M6",
+      "predicted_time": 0.683,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J47-O4",
+      "machine_id": "M7",
+      "predicted_time": 1.38,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J47-O4",
+      "machine_id": "M8",
+      "predicted_time": 1.402,
+      "machine_risk": 0.084
+    }
+  ],
+  "J48": [
+    {
+      "operation_id": "J48-O1",
+      "machine_id": "M1",
+      "predicted_time": 2.043,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J48-O1",
+      "machine_id": "M2",
+      "predicted_time": 2.29,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J48-O2",
+      "machine_id": "M5",
+      "predicted_time": 1.529,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J48-O2",
+      "machine_id": "M6",
+      "predicted_time": 1.144,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J48-O3",
+      "machine_id": "M7",
+      "predicted_time": 2.563,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J48-O3",
+      "machine_id": "M8",
+      "predicted_time": 2.524,
+      "machine_risk": 0.084
+    }
+  ],
+  "J49": [
+    {
+      "operation_id": "J49-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.872,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J49-O1",
+      "machine_id": "M2",
+      "predicted_time": 2.135,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J49-O2",
+      "machine_id": "M5",
+      "predicted_time": 1.358,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J49-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.928,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J49-O3",
+      "machine_id": "M7",
+      "predicted_time": 2.271,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J49-O3",
+      "machine_id": "M8",
+      "predicted_time": 2.239,
+      "machine_risk": 0.084
+    }
+  ],
+  "J5": [
+    {
+      "operation_id": "J5-O1",
+      "machine_id": "M1",
+      "predicted_time": 4.798,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J5-O1",
+      "machine_id": "M2",
+      "predicted_time": 4.91,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J5-O2",
+      "machine_id": "M3",
+      "predicted_time": 3.879,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J5-O2",
+      "machine_id": "M4",
+      "predicted_time": 4.288,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J5-O3",
+      "machine_id": "M5",
+      "predicted_time": 3.172,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J5-O3",
+      "machine_id": "M6",
+      "predicted_time": 2.702,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J5-O4",
+      "machine_id": "M7",
+      "predicted_time": 4.775,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J5-O4",
+      "machine_id": "M8",
+      "predicted_time": 4.836,
+      "machine_risk": 0.084
+    }
+  ],
+  "J50": [
+    {
+      "operation_id": "J50-O1",
+      "machine_id": "M1",
+      "predicted_time": 0.436,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J50-O1",
+      "machine_id": "M2",
+      "predicted_time": 0.5,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J50-O2",
+      "machine_id": "M5",
+      "predicted_time": 0.497,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J50-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.359,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J50-O3",
+      "machine_id": "M7",
+      "predicted_time": 0.505,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J50-O3",
+      "machine_id": "M8",
+      "predicted_time": 0.5,
+      "machine_risk": 0.084
+    }
+  ],
+  "J51": [
+    {
+      "operation_id": "J51-O1",
+      "machine_id": "M1",
+      "predicted_time": 0.664,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J51-O1",
+      "machine_id": "M2",
+      "predicted_time": 0.733,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J51-O2",
+      "machine_id": "M5",
+      "predicted_time": 0.573,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J51-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.406,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J51-O3",
+      "machine_id": "M7",
+      "predicted_time": 0.73,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J51-O3",
+      "machine_id": "M8",
+      "predicted_time": 0.72,
+      "machine_risk": 0.084
+    }
+  ],
+  "J52": [
+    {
+      "operation_id": "J52-O1",
+      "machine_id": "M1",
+      "predicted_time": 0.989,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J52-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.132,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J52-O2",
+      "machine_id": "M5",
+      "predicted_time": 0.805,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J52-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.562,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J52-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.169,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J52-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.145,
+      "machine_risk": 0.084
+    }
+  ],
+  "J53": [
+    {
+      "operation_id": "J53-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.668,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J53-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.855,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J53-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.353,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J53-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.416,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J53-O3",
+      "machine_id": "M5",
+      "predicted_time": 1.284,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J53-O3",
+      "machine_id": "M6",
+      "predicted_time": 0.982,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J53-O4",
+      "machine_id": "M7",
+      "predicted_time": 1.789,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J53-O4",
+      "machine_id": "M8",
+      "predicted_time": 1.767,
+      "machine_risk": 0.084
+    }
+  ],
+  "J54": [
+    {
+      "operation_id": "J54-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.027,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J54-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.133,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J54-O2",
+      "machine_id": "M5",
+      "predicted_time": 0.804,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J54-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.508,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J54-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.169,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J54-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.16,
+      "machine_risk": 0.084
+    }
+  ],
+  "J55": [
+    {
+      "operation_id": "J55-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.279,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J55-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.484,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J55-O2",
+      "machine_id": "M3",
+      "predicted_time": 1.015,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J55-O2",
+      "machine_id": "M4",
+      "predicted_time": 1.052,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J55-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.419,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J55-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.398,
+      "machine_risk": 0.084
+    }
+  ],
+  "J56": [
+    {
+      "operation_id": "J56-O1",
+      "machine_id": "M1",
+      "predicted_time": 3.271,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J56-O1",
+      "machine_id": "M2",
+      "predicted_time": 3.575,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J56-O2",
+      "machine_id": "M3",
+      "predicted_time": 2.588,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J56-O2",
+      "machine_id": "M4",
+      "predicted_time": 2.772,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J56-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.213,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J56-O3",
+      "machine_id": "M6",
+      "predicted_time": 1.731,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J56-O4",
+      "machine_id": "M7",
+      "predicted_time": 3.779,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J56-O4",
+      "machine_id": "M8",
+      "predicted_time": 3.747,
+      "machine_risk": 0.084
+    }
+  ],
+  "J57": [
+    {
+      "operation_id": "J57-O1",
+      "machine_id": "M1",
+      "predicted_time": 4.512,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J57-O1",
+      "machine_id": "M2",
+      "predicted_time": 5.108,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J57-O2",
+      "machine_id": "M3",
+      "predicted_time": 3.8,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J57-O2",
+      "machine_id": "M4",
+      "predicted_time": 4.017,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J57-O3",
+      "machine_id": "M5",
+      "predicted_time": 3.266,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J57-O3",
+      "machine_id": "M6",
+      "predicted_time": 2.417,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J57-O4",
+      "machine_id": "M7",
+      "predicted_time": 5.393,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J57-O4",
+      "machine_id": "M8",
+      "predicted_time": 5.262,
+      "machine_risk": 0.084
+    }
+  ],
+  "J58": [
+    {
+      "operation_id": "J58-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.743,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J58-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.95,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J58-O2",
+      "machine_id": "M5",
+      "predicted_time": 1.241,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J58-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.906,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J58-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.981,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J58-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.919,
+      "machine_risk": 0.084
+    }
+  ],
+  "J59": [
+    {
+      "operation_id": "J59-O1",
+      "machine_id": "M1",
+      "predicted_time": 4.188,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J59-O1",
+      "machine_id": "M2",
+      "predicted_time": 4.706,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J59-O2",
+      "machine_id": "M3",
+      "predicted_time": 3.164,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J59-O2",
+      "machine_id": "M4",
+      "predicted_time": 3.36,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J59-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.789,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J59-O3",
+      "machine_id": "M6",
+      "predicted_time": 2.086,
+      "machine_risk": 0.077
+    }
+  ],
+  "J6": [
+    {
+      "operation_id": "J6-O1",
+      "machine_id": "M1",
+      "predicted_time": 0.887,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J6-O1",
+      "machine_id": "M2",
+      "predicted_time": 0.987,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J6-O2",
+      "machine_id": "M3",
+      "predicted_time": 0.799,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J6-O2",
+      "machine_id": "M4",
+      "predicted_time": 0.827,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J6-O3",
+      "machine_id": "M7",
+      "predicted_time": 0.988,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J6-O3",
+      "machine_id": "M8",
+      "predicted_time": 0.967,
+      "machine_risk": 0.084
+    }
+  ],
+  "J60": [
+    {
+      "operation_id": "J60-O1",
+      "machine_id": "M1",
+      "predicted_time": 4.268,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J60-O1",
+      "machine_id": "M2",
+      "predicted_time": 4.53,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J60-O2",
+      "machine_id": "M3",
+      "predicted_time": 3.308,
+      "machine_risk": 0.766
+    },
+    {
+      "operation_id": "J60-O2",
+      "machine_id": "M4",
+      "predicted_time": 3.403,
+      "machine_risk": 0.18
+    },
+    {
+      "operation_id": "J60-O3",
+      "machine_id": "M5",
+      "predicted_time": 2.602,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J60-O3",
+      "machine_id": "M6",
+      "predicted_time": 2.109,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J60-O4",
+      "machine_id": "M7",
+      "predicted_time": 4.558,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J60-O4",
+      "machine_id": "M8",
+      "predicted_time": 4.5,
+      "machine_risk": 0.084
+    }
+  ],
+  "J7": [
+    {
+      "operation_id": "J7-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.37,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J7-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.568,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J7-O2",
+      "machine_id": "M5",
+      "predicted_time": 1.1,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J7-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.774,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J7-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.601,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J7-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.574,
+      "machine_risk": 0.084
+    }
+  ],
+  "J8": [
+    {
+      "operation_id": "J8-O1",
+      "machine_id": "M1",
+      "predicted_time": 0.878,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J8-O1",
+      "machine_id": "M2",
+      "predicted_time": 0.966,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J8-O2",
+      "machine_id": "M5",
+      "predicted_time": 0.67,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J8-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.476,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J8-O3",
+      "machine_id": "M7",
+      "predicted_time": 0.962,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J8-O3",
+      "machine_id": "M8",
+      "predicted_time": 0.941,
+      "machine_risk": 0.084
+    }
+  ],
+  "J9": [
+    {
+      "operation_id": "J9-O1",
+      "machine_id": "M1",
+      "predicted_time": 1.305,
+      "machine_risk": 0.58
+    },
+    {
+      "operation_id": "J9-O1",
+      "machine_id": "M2",
+      "predicted_time": 1.498,
+      "machine_risk": 0.752
+    },
+    {
+      "operation_id": "J9-O2",
+      "machine_id": "M5",
+      "predicted_time": 0.943,
+      "machine_risk": 0.621
+    },
+    {
+      "operation_id": "J9-O2",
+      "machine_id": "M6",
+      "predicted_time": 0.6,
+      "machine_risk": 0.077
+    },
+    {
+      "operation_id": "J9-O3",
+      "machine_id": "M7",
+      "predicted_time": 1.475,
+      "machine_risk": 0.132
+    },
+    {
+      "operation_id": "J9-O3",
+      "machine_id": "M8",
+      "predicted_time": 1.444,
+      "machine_risk": 0.084
+    }
+  ]
+}

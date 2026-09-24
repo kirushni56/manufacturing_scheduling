@@ -1,0 +1,18 @@
+{
+  "task": "processing_time_regression",
+  "train_rows": 2537,
+  "test_rows": 448,
+  "results": {
+    "RandomForest": {
+      "MAE": 0.1897,
+      "RMSE": 0.293,
+      "R2": 0.9712
+    },
+    "XGBoost": {
+      "MAE": 0.1888,
+      "RMSE": 0.2954,
+      "R2": 0.9707
+    }
+  },
+  "selected_model": "XGBoost"
+}
