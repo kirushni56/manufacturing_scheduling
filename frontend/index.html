@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manufacturing Scheduling Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AI Manufacturing Scheduling Dashboard</h1>
+  </header>
+
+  <section id="overview">
+    <h2>Production Overview</h2>
+    <div class="cards">
+      <div class="card"><span id="totalJobs">--</span><p>Total Jobs</p></div>
+      <div class="card"><span id="completedJobs">--</span><p>Completed</p></div>
+      <div class="card"><span id="inProgressJobs">--</span><p>In Progress</p></div>
+      <div class="card"><span id="delayedJobs">--</span><p>Delayed</p></div>
+    </div>
+  </section>
+
+  <section id="machines">
+    <h2>Machine Status</h2>
+    <div id="machineList" class="cards"></div>
+  </section>
+
+  <section id="schedule">
+    <h2>AI Schedule (Gantt)</h2>
+    <div id="ganttChart">Schedule will render here</div>
+  </section>
+
+  <section id="insights">
+    <h2>AI Insights</h2>
+    <ul id="insightsList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

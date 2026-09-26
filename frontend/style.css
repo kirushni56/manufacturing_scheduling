@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background: #0f1117;
+  color: #e6e6e6;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 24px;
+  color: #4da3ff;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+section h2 {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 6px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  background: #1a1d27;
+  border-radius: 8px;
+  padding: 16px 24px;
+  text-align: center;
+  min-width: 120px;
+}
+
+.card span {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #4da3ff;
+}
+
+.card p {
+  margin-top: 4px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+#ganttChart {
+  background: #1a1d27;
+  border-radius: 8px;
+  padding: 20px;
+  color: #888;
+  min-height: 100px;
+}
+
+#insightsList {
+  list-style: none;
+}
+
+#insightsList li {
+  background: #1a1d27;
+  margin-bottom: 8px;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
