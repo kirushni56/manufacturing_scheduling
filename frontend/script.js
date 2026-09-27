@@ -13,34 +13,45 @@ const machines = [
   { id: "M4", status: "Running" }
 ];
 
-const insights = [
-  "Job J12 has a high probability of missing its deadline.",
-  "Machine M3 has elevated failure risk.",
-  "Schedule automatically re-optimized after M2 breakdown."
-];
-
-// Fill in overview cards
-document.getElementById("totalJobs").textContent = overview.totalJobs;
-document.getElementById("completedJobs").textContent = overview.completedJobs;
-document.getElementById("inProgressJobs").textContent = overview.inProgressJobs;
-document.getElementById("delayedJobs").textContent = overview.delayedJobs;
-
-// Fill in machine status cards
-const machineList = document.getElementById("machineList");
-machines.forEach(m => {
-  const card = document.createElement("div");
-  card.className = "card";
-  card.innerHTML = `<span>${m.id}</span><p>${m.status}</p>`;
-  machineList.appendChild(card);
-});
-
-// Fill in AI insights
 const insightsList = document.getElementById("insightsList");
-insights.forEach(text => {
-  const li = document.createElement("li");
-  li.textContent = text;
-  insightsList.appendChild(li);
-});
+
+fetch("../scheduler_predictions.json")
+  .then(res => res.json())
+  .then(data => {
+    const allOps = [];
+    for (const jobId in data) {
+      data[jobId].forEach(op => {
+        allOps.push({
+          job: jobId,
+          operation: op.operation_id,
+          machine: op.machine_id,
+          risk: op.machine_risk
+        });
+      });
+    }
+
+    const highRisk = allOps
+      .filter(op => op.risk > 0.7)
+      .sort((a, b) => b.risk - a.risk)
+      .slice(0, 6);
+
+    insightsList.innerHTML = "";
+
+    if (highRisk.length === 0) {
+      const li = document.createElement("li");
+      li.textContent = "No high-risk operations detected.";
+      insightsList.appendChild(li);
+      return;
+    }
+
+    highRisk.forEach(op => {
+      const li = document.createElement("li");
+      li.textContent = `⚠️ Job ${op.job} (${op.operation}) has elevated failure risk (${(op.risk * 100).toFixed(0)}%) on ${op.machine}.`;
+      insightsList.appendChild(li);
+    });
+  })
+  .catch(err => console.error("Failed to load scheduler_predictions.json:", err));
+  
 let jobs = [];
 
 const jobForm = document.getElementById("jobForm");
