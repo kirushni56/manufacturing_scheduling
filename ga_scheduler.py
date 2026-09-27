@@ -133,8 +133,9 @@ def mutate_ms(ms, candidates, rate):
 
 # ------------------------------------------------------------------ main GA
 def run_ga(data, pop_size=80, generations=200, crossover_rate=0.85, mutation_rate=0.15,
-           elite_size=2, seed=42, verbose=True):
-    random.seed(seed)
+           elite_size=2, seed=None, verbose=True):
+    if seed is not None:
+        random.seed(seed)
     jobs, candidates = data["jobs"], data["candidates"]
 
     population = init_population(data, pop_size)
@@ -187,10 +188,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pop-size", type=int, default=80)
     ap.add_argument("--generations", type=int, default=200)
+    ap.add_argument("--seed", type=int, default=None, help="fix the RNG seed for a reproducible run (omit for a fresh random run every time)")
     args = ap.parse_args()
 
     data = load_scheduling_data()
-    rows, metrics, history = run_ga(data, pop_size=args.pop_size, generations=args.generations)
+    rows, metrics, history = run_ga(data, pop_size=args.pop_size, generations=args.generations, seed=args.seed)
 
     print("\nGA best schedule metrics:")
     for k, v in metrics.items():
