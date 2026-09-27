@@ -44,6 +44,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pop-size", type=int, default=80)
     ap.add_argument("--generations", type=int, default=200)
+    ap.add_argument("--seed", type=int, default=None, help="fix the RNG seed for a reproducible GA run")
     ap.add_argument("--post-to-api", action="store_true")
     ap.add_argument("--api", default="http://127.0.0.1:8000")
     args = ap.parse_args()
@@ -56,7 +57,7 @@ def main():
     prio_rows, prio_metrics = run_priority(data)
     print(f"Running GA ({args.pop_size} pop x {args.generations} gens)...")
     ga_rows, ga_metrics, ga_history = run_ga(data, pop_size=args.pop_size,
-                                              generations=args.generations, verbose=False)
+                                              generations=args.generations, seed=args.seed, verbose=False)
 
     table = pd.DataFrame({
         "FCFS": fcfs_metrics, "Priority": prio_metrics, "GA": ga_metrics,

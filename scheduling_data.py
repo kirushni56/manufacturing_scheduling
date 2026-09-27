@@ -60,15 +60,24 @@ def load_scheduling_data():
 
     for op in operations:
         op_id = op["operation_id"]
+        live = []
         if op_id in preds_by_op.groups:
             g = preds_by_op.get_group(op_id)
-            candidates[op_id] = list(zip(g.machine_id, g.predicted_time))
-        else:
-            # Member 2's predictions aren't available for this op (e.g. re-run before
-            # predict.py) -> fall back to Member 1's baseline time / machine speed.
+            # Always filter against *current* machine status, even though these
+            # predictions were computed earlier — otherwise a machine that
+            # breaks down after predict.py last ran would still look scheduleable.
+            live = [(m, t) for m, t in zip(g.machine_id, g.predicted_time) if m in available_machines]
+
+        if not live:
+            # Either Member 2 never predicted this op, or every machine that WAS
+            # predicted for it is now unavailable (e.g. it just broke down) ->
+            # fall back to Member 1's baseline time / machine speed for whatever
+            # currently-available compatible machines are left.
             compat = [m for m, t in machine_type.items()
                       if t == op["required_machine_type"] and m in available_machines]
             candidates[op_id] = [(m, round(op["processing_time"] / speed_factor[m], 3)) for m in compat]
+        else:
+            candidates[op_id] = live
 
     # --- machine risk, from Member 2 ---
     risk_path = PROCESSED / "predictions_machine_risk.csv"
