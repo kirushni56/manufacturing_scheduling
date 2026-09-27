@@ -20,6 +20,32 @@
     </div>
   </section>
 
+  <section id="jobManagement">
+  <h2>Job Management</h2>
+  <form id="jobForm" class="job-form">
+    <input type="text" id="jobId" placeholder="Job ID" required>
+    <input type="text" id="product" placeholder="Product" required>
+    <input type="number" id="quantity" placeholder="Quantity" required>
+    <select id="priority" required>
+      <option value="">Priority</option>
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>
+    </select>
+    <input type="date" id="deadline" required>
+    <input type="text" id="operation" placeholder="Operation (e.g. Drilling)" required>
+    <button type="submit">Add Job</button>
+  </form>
+
+  <table id="jobTable">
+    <thead>
+      <tr>
+        <th>Job ID</th><th>Product</th><th>Qty</th><th>Priority</th><th>Deadline</th><th>Operation</th><th></th>
+      </tr>
+    </thead>
+    <tbody id="jobTableBody"></tbody>
+  </table>
+</section>
   <section id="machines">
     <h2>Machine Status</h2>
     <div id="machineList" class="cards"></div>
@@ -27,7 +53,7 @@
 
   <section id="schedule">
     <h2>AI Schedule (Gantt)</h2>
-    <div id="ganttChart">Schedule will render here</div>
+<div id="ganttChart"> <div id="ganttHeader" class="gantt-header"></div> <div id="ganttRows" class="gantt-rows"></div> </div>
   </section>
 
   <section id="insights">
