@@ -61,6 +61,25 @@
     <ul id="insightsList"></ul>
   </section>
 
-  <script src="script.js"></script>
+  
+  <section id="rescheduling">
+  <h2>Rescheduling View</h2>
+  <button id="simulateBreakdownBtn">Simulate M2 Breakdown</button>
+  <p id="rescheduleReason"></p>
+
+  <div class="reschedule-compare">
+    <div class="reschedule-col">
+      <h3>Before</h3>
+      <div id="beforeGanttHeader" class="gantt-header"></div>
+      <div id="beforeGanttRows" class="gantt-rows"></div>
+    </div>
+    <div class="reschedule-col">
+      <h3>After</h3>
+      <div id="afterGanttHeader" class="gantt-header"></div>
+      <div id="afterGanttRows" class="gantt-rows"></div>
+    </div>
+  </div>
+</section>
+<script src="script.js"></script>
 </body>
 </html>
