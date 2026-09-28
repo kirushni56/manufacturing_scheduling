@@ -71,7 +71,7 @@ def save_schedule_to_db(rows, t0, metrics=None, trigger_event="Initial Schedule"
     return run_id
 
 
-def reschedule_after_event(trigger_event="Machine Breakdown", generations=10):
+def reschedule_after_event(trigger_event="Machine Breakdown", generations=50):
     data = load_scheduling_data_from_db()
 
     rows, metrics, history = run_ga(
