@@ -187,9 +187,17 @@ function renderGanttInto(data, headerId, rowsId, rangeStart, rangeEnd) {
   const end = rangeEnd !== undefined ? rangeEnd : timelineEnd;
   header.style.minWidth = ((end - start) * 30) + "px";
 
-  for (let h = Math.floor(start); h <= Math.ceil(end); h++) {
+  header.style.minWidth = "0";
+  header.style.position = "relative";
+  header.style.height = "18px";
+  const step = Math.max(5, Math.round((end - start) / 50) * 5);
+  for (let h = Math.ceil(start / step) * step; h <= end; h += step) {
     const span = document.createElement("span");
-    span.textContent = h + ":00";
+    span.textContent = h + "h";
+    span.style.position = "absolute";
+    span.style.left = (((h - start) / (end - start)) * 100) + "%";
+    span.style.width = "auto";
+    span.style.flex = "none";
     header.appendChild(span);
   }
 
