@@ -325,3 +325,24 @@ async function loadComparison() {
   }
 }
 loadComparison();
+
+document.getElementById("totalJobs").textContent = overview.totalJobs;
+document.getElementById("completedJobs").textContent = overview.completedJobs;
+document.getElementById("inProgressJobs").textContent = overview.inProgressJobs;
+document.getElementById("delayedJobs").textContent = overview.delayedJobs;
+
+const machineList = document.getElementById("machineList");
+const statusIcons = {
+  Available: "🟢",
+  Running: "🟢",
+  Maintenance: "🟡",
+  Breakdown: "🔴"
+};
+machineList.innerHTML = "";
+machines.forEach(m => {
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = "<span>" + m.id + "</span><p>" +
+    (statusIcons[m.status] || "⚪") + " " + m.status + "</p>";
+  machineList.appendChild(card);
+});
