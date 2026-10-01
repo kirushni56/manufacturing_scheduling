@@ -165,3 +165,8 @@ section h2 {
 .gantt-header, .gantt-track {
   min-width: 1200px;
 }
+
+.cmp { width: 100%; border-collapse: collapse; }
+.cmp th, .cmp td { padding: 10px; text-align: center; border-bottom: 1px solid #333; }
+.cmp td:first-child, .cmp th:first-child { text-align: left; }
+.cmp td.best { background: #14532d; color: #86efac; font-weight: bold; }

@@ -280,3 +280,40 @@ simulateBtn.addEventListener("click", function() {
       console.error(err);
     });
 });
+
+async function loadComparison() {
+  const box = document.getElementById("comparison-table");
+  try {
+    const res = await fetch("../scheduler_comparison.json");
+    const d = await res.json();
+
+    const rows = [
+      ["Makespan (h)", "makespan", false],
+      ["Total tardiness (h)", "total_tardiness", false],
+      ["Jobs late", "jobs_late", false],
+      ["Idle time (h)", "idle_time", false],
+      ["Utilization (%)", "utilization", true],
+      ["Risk exposure", "risk_exposure", false],
+      ["Total cost (fitness)", "fitness", false]
+    ];
+    const names = ["FCFS", "Priority", "GA"];
+
+    let html = "<table class='cmp'><tr><th>Metric</th><th>FCFS</th><th>Priority</th><th>GA</th></tr>";
+    rows.forEach(([label, key, higherBetter]) => {
+      const vals = names.map(n => d[n][key]);
+      const best = higherBetter ? Math.max(...vals) : Math.min(...vals);
+      html += "<tr><td>" + label + "</td>";
+      vals.forEach(v => {
+        const shown = key === "utilization" ? (v * 100).toFixed(1) : v;
+        html += "<td class='" + (v === best ? "best" : "") + "'>" + shown + "</td>";
+      });
+      html += "</tr>";
+    });
+    html += "</table>";
+    box.innerHTML = html;
+  } catch (err) {
+    console.error("Comparison error:", err);
+    box.textContent = "Could not load the comparison data.";
+  }
+}
+loadComparison();
