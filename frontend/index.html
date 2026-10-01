@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manufacturing Scheduling Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AI Manufacturing Scheduling Dashboard</h1>
+  </header>
+
+  <section id="overview">
+    <h2>Production Overview</h2>
+    <div class="cards">
+      <div class="card"><span id="totalJobs">--</span><p>Total Jobs</p></div>
+      <div class="card"><span id="completedJobs">--</span><p>Completed</p></div>
+      <div class="card"><span id="inProgressJobs">--</span><p>In Progress</p></div>
+      <div class="card"><span id="delayedJobs">--</span><p>Delayed</p></div>
+    </div>
+  </section>
+
+  <section id="jobManagement">
+  <h2>Job Management</h2>
+  <form id="jobForm" class="job-form">
+    <input type="text" id="jobId" placeholder="Job ID" required>
+    <input type="text" id="product" placeholder="Product" required>
+    <input type="number" id="quantity" placeholder="Quantity" required>
+    <select id="priority" required>
+      <option value="">Priority</option>
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>
+    </select>
+    <input type="date" id="deadline" required>
+    <input type="text" id="operation" placeholder="Operation (e.g. Drilling)" required>
+    <button type="submit">Add Job</button>
+  </form>
+
+  <table id="jobTable">
+    <thead>
+      <tr>
+        <th>Job ID</th><th>Product</th><th>Qty</th><th>Priority</th><th>Deadline</th><th>Operation</th><th></th>
+      </tr>
+    </thead>
+    <tbody id="jobTableBody"></tbody>
+  </table>
+</section>
+  <section id="machines">
+    <h2>Machine Status</h2>
+    <div id="machineList" class="cards"></div>
+  </section>
+
+  <section id="schedule">
+    <h2>AI Schedule (Gantt)</h2>
+<div id="ganttChart"> <div id="ganttHeader" class="gantt-header"></div> <div id="ganttRows" class="gantt-rows"></div> </div>
+  </section>
+
+  <section id="insights">
+    <h2>AI Insights</h2>
+    <ul id="insightsList"></ul>
+  </section>
+
+  
+  <section id="rescheduling">
+  <h2>Rescheduling View</h2>
+  <button id="simulateBreakdownBtn">Simulate M2 Breakdown</button>
+  <p id="rescheduleReason"></p>
+
+  <div class="reschedule-compare">
+    <div class="reschedule-col">
+      <h3>Before</h3>
+      <div id="beforeGanttHeader" class="gantt-header"></div>
+      <div id="beforeGanttRows" class="gantt-rows"></div>
+    </div>
+    <div class="reschedule-col">
+      <h3>After</h3>
+      <div id="afterGanttHeader" class="gantt-header"></div>
+      <div id="afterGanttRows" class="gantt-rows"></div>
+    </div>
+  </div>
+</section>
+<section>
+  <h2>Schedule Comparison</h2>
+  <div id="comparison-table">Loading...</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
