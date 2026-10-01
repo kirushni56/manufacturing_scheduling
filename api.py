@@ -7,6 +7,14 @@ from db import get_conn
 from workflow import change_job_status, set_machine_status
 
 app = FastAPI(title="Manufacturing Data API")
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 def q(sql, params=()):
     with get_conn() as c:

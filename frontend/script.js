@@ -177,13 +177,17 @@ fetch("../ga_schedule.json")
   })
   .catch(err => console.error("Failed to load ga_schedule.json:", err));
 
-function renderGanttInto(data, headerId, rowsId) {
+function renderGanttInto(data, headerId, rowsId, rangeStart, rangeEnd) {
   const header = document.getElementById(headerId);
   const rowsContainer = document.getElementById(rowsId);
   header.innerHTML = "";
   rowsContainer.innerHTML = "";
 
-  for (let h = timelineStart; h <= timelineEnd; h++) {
+  const start = rangeStart !== undefined ? rangeStart : timelineStart;
+  const end = rangeEnd !== undefined ? rangeEnd : timelineEnd;
+  header.style.minWidth = ((end - start) * 30) + "px";
+
+  for (let h = Math.floor(start); h <= Math.ceil(end); h++) {
     const span = document.createElement("span");
     span.textContent = h + ":00";
     header.appendChild(span);
@@ -206,11 +210,11 @@ function renderGanttInto(data, headerId, rowsId) {
     data
       .filter(d => d.machine === machine)
       .forEach(d => {
-        const bar = document.createElement("div");
-        bar.className = "gantt-bar";
-        const totalSpan = timelineEnd - timelineStart;
-        const leftPct = ((d.start - timelineStart) / totalSpan) * 100;
-        const widthPct = ((d.end - d.start) / totalSpan) * 100;
+            const bar = document.createElement("div");
+          bar.className = "gantt-bar";
+          const totalSpan = end - start;
+          const leftPct = ((d.start - start) / totalSpan) * 100;
+          const widthPct = ((d.end - d.start) / totalSpan) * 100;
         bar.style.left = leftPct + "%";
         bar.style.width = widthPct + "%";
         bar.style.background = d.color;
@@ -226,19 +230,53 @@ function renderGanttInto(data, headerId, rowsId) {
 const simulateBtn = document.getElementById("simulateBreakdownBtn");
 const reasonText = document.getElementById("rescheduleReason");
 
+function isoToHours(iso, t0) {
+  return (new Date(iso) - t0) / (1000 * 60 * 60);
+}
+
+function convertApiSchedule(apiData) {
+  if (apiData.length === 0) return { data: [], start: 0, end: 1 };
+  const t0 = new Date(Math.min(...apiData.map(d => new Date(d.start_time))));
+  const jobColorsLocal = {};
+  const paletteLocal = ["#4da3ff", "#ff9f4d", "#4dff88", "#ff4d4d", "#c74dff", "#ffe14d", "#4de9ff", "#ff7eb6"];
+  let idx = 0;
+  const converted = apiData.map(op => {
+    if (!jobColorsLocal[op.job_id]) {
+      jobColorsLocal[op.job_id] = paletteLocal[idx % paletteLocal.length];
+      idx++;
+    }
+    return {
+      machine: op.machine_id,
+      job: op.job_id,
+      start: isoToHours(op.start_time, t0),
+      end: isoToHours(op.end_time, t0),
+      color: jobColorsLocal[op.job_id]
+    };
+  });
+  const start = Math.floor(Math.min(...converted.map(d => d.start)));
+  const end = Math.ceil(Math.max(...converted.map(d => d.end)));
+  return { data: converted, start, end };
+}
+
 simulateBtn.addEventListener("click", function() {
-  // "Before" is the original schedule
-  renderGanttInto(scheduleData, "beforeGanttHeader", "beforeGanttRows");
+  reasonText.textContent = "Loading real rescheduled data...";
 
-  // "After" simulates M2 breaking down — its jobs move to M1 and M3
-  const afterSchedule = scheduleData
-    .filter(d => d.machine !== "M2")
-    .concat([
-      { machine: "M1", job: "J2", start: 14, end: 17, color: "#ff4d4d" },
-      { machine: "M3", job: "J4", start: 14, end: 16, color: "#c74dff" }
-    ]);
+  // "Before" reuses the original schedule already loaded for the main Gantt chart
+  renderGanttInto(scheduleData, "beforeGanttHeader", "beforeGanttRows", timelineStart, timelineEnd);
 
-  renderGanttInto(afterSchedule, "afterGanttHeader", "afterGanttRows");
+  fetch("http://127.0.0.1:8000/schedule")
+    .then(res => res.json())
+    .then(afterRaw => {
+      const after = convertApiSchedule(afterRaw);
+      renderGanttInto(after.data, "afterGanttHeader", "afterGanttRows", after.start, after.end);
 
-  reasonText.textContent = "⚠️ M2 breakdown detected — J2 and J4 rerouted to M1 and M3.";
+      const m2Before = scheduleData.filter(d => d.machine === "M2").length;
+      const m2After = after.data.filter(d => d.machine === "M2").length;
+
+      reasonText.textContent = `⚠️ M2 breakdown: had ${m2Before} operations on M2 before, ${m2After} after real rescheduling.`;
+    })
+    .catch(err => {
+      reasonText.textContent = "Could not load the live schedule — make sure the backend server (uvicorn) is running.";
+      console.error(err);
+    });
 });
