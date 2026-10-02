@@ -170,3 +170,10 @@ section h2 {
 .cmp th, .cmp td { padding: 10px; text-align: center; border-bottom: 1px solid #333; }
 .cmp td:first-child, .cmp th:first-child { text-align: left; }
 .cmp td.best { background: #14532d; color: #86efac; font-weight: bold; }
+
+.reschedule-compare { min-width: 0; }
+.reschedule-col { min-width: 0; overflow-x: auto; }
+.reschedule-col .gantt-header,
+.reschedule-col .gantt-rows { min-width: 1100px; }
+
+.reschedule-col .gantt-header { min-width: 1040px !important; }

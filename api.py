@@ -174,3 +174,7 @@ def create_job(j: JobIn):
         c.execute("INSERT INTO job_status_log(job_id, old_status, new_status) VALUES (?,'Created','Pending')",
                   (j.job_id,))
     return {"created": j.job_id, "operations": len(j.operations)}
+
+from pathlib import Path
+from fastapi.staticfiles import StaticFiles
+app.mount("/", StaticFiles(directory=Path(__file__).parent, html=True), name="site")

@@ -1,4 +1,4 @@
-// Placeholder data — replace with real API calls once backend is ready
+﻿// Placeholder data — replace with real API calls once backend is ready
 const overview = {
   totalJobs: 50,
   completedJobs: 32,
@@ -272,7 +272,7 @@ simulateBtn.addEventListener("click", function() {
   // "Before" reuses the original schedule already loaded for the main Gantt chart
   renderGanttInto(scheduleData, "beforeGanttHeader", "beforeGanttRows", timelineStart, timelineEnd);
 
-  fetch("http://127.0.0.1:8000/schedule")
+  fetch("/schedule")
     .then(res => res.json())
     .then(afterRaw => {
       const after = convertApiSchedule(afterRaw);
